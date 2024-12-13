@@ -14,7 +14,8 @@ function interface() {
     0) 
       printf '=%.0s' {1..100}
       printf "\n\n"
-      echo '- [1] Previte'
+      echo '- [1] Change repository'
+      echo '- [2] kurwa'
       printf "\n\n"
 
   esac
@@ -26,3 +27,5 @@ interface 0
 
 echo "helloworld"
 devTag
+
+read
